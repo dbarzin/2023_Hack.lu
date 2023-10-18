@@ -63,6 +63,11 @@ We assume you have the following environment at your disposal:
   ```
   curl -sSL https://install.python-poetry.org | python3 -
   ```
+* Add Poetry in the PATH
+
+  ```
+export PATH=$PATH:~/.local/share/pypoetry/venv/bin
+  ```
 
   Make sure Poetry is working by running `poetry self -V` in a terminal.
 
